@@ -90,7 +90,7 @@ function setupItems() {
 
 function ready() {
   const overlays = Array.from(document.getElementsByClassName("overlay-text"))
-  const game = createGame(25)
+  const game = createGame(20)
 
   overlays.forEach((overlay) => {
     overlay.addEventListener("click", () => {
